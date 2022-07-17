@@ -34,7 +34,12 @@ namespace csDemoArray
                 Console.WriteLine("Another Array: " + n);
             }
 
-
+            //Array Sorting
+            Array.Sort(numbers);
+            foreach (var n in numbers)
+            {
+                Console.WriteLine("Sorted Array: " + n);
+            }
 
         }
     }
