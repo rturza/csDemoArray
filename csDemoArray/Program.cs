@@ -19,6 +19,16 @@ namespace csDemoArray
             var index = Array.IndexOf(numbers, 9);
             Console.WriteLine("Index of Array : " + index);
 
+            //Clear of an Array
+            Array.Clear(numbers, 0, 2);
+            foreach (var n in numbers)
+            {
+                Console.WriteLine("Array items: " + n);
+            }
+
+
+
+
         }
     }
 }
