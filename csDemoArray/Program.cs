@@ -15,6 +15,10 @@ namespace csDemoArray
             //Length of array
             Console.WriteLine("Length of Array : " + numbers.Length);
 
+            //Index of array
+            var index = Array.IndexOf(numbers, 9);
+            Console.WriteLine("Index of Array : " + index);
+
         }
     }
 }
